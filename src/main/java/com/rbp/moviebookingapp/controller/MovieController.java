@@ -41,7 +41,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@CrossOrigin(origins = "http:localhost:3000")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1.0/moviebooking")
 @OpenAPIDefinition(
 		info = @Info(
