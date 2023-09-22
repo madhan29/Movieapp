@@ -1,0 +1,20 @@
+version: "3"
+services:
+  movieappmongodb:
+    image: mongo:latest
+    container_name: "movieappmongodb"
+    networks:
+      - new-network
+    ports:
+      - 27017:27017
+
+  moviebooking:
+    image: moviebooking:v1
+    container_name: moviebooking
+    networks:
+      - new-network
+    ports:
+      - 8080:8080
+
+networks:
+  new-network:
