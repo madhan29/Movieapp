@@ -16,3 +16,9 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .idea/
+mongo-deploy.yaml
+mongo-service.yaml
+movieBookingApp.log
+movie-service.yaml
+movie-deploy.yaml
+m
