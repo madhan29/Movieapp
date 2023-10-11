@@ -9,12 +9,23 @@ services:
       - 27017:27017
 
   moviebooking:
-    image: moviebooking:v1
+    image: madhan29/moviebooking:v1
     container_name: moviebooking
     networks:
       - new-network
     ports:
       - 8080:8080
+    depends_on:
+      - movieappmongodb
 
+  moviebooking-fe:
+    image: madhan29/movieapp-frontend:v1
+    container_name: movieapp-frontend
+    networks:
+      - new-network
+    ports:
+      - 3000:3000
+    depends_on:
+      - moviebooking
 networks:
   new-network:
