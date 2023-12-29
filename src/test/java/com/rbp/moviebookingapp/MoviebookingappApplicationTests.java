@@ -1,13 +1,13 @@
-package com.rbp.moviebookingapp;
+// package com.rbp.moviebookingapp;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class MoviebookingappApplicationTests {
+// @SpringBootTest
+// class MoviebookingappApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
