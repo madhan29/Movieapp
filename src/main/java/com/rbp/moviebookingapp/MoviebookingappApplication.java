@@ -1,19 +1,17 @@
 package com.rbp.moviebookingapp;
 
-import java.util.List;
-
-import javax.annotation.PostConstruct;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.core.MongoTemplate;
-
 import com.rbp.moviebookingapp.models.ERole;
 import com.rbp.moviebookingapp.models.Movie;
 import com.rbp.moviebookingapp.models.Role;
 import com.rbp.moviebookingapp.repository.MovieRepository;
 import com.rbp.moviebookingapp.repository.RoleRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+import javax.annotation.PostConstruct;
+import java.util.List;
 
 
 @SpringBootApplication
